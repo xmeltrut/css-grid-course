@@ -3,14 +3,14 @@ CSS Grid course
 
 Example code for the CSS Grid course.
 
-Fundamentals
+## Fundamentals
 
-* [001-templates.html](Templates)
-* [002-gaps.html](Gaps)
-* [003-units.html](Units of measurement)
-* [004-alignment.html](Alignment])
-* [005-implicit-tracks.html](Implicit tracks)
-* [006-positioning.html](Positioning)
-* [007-areas.html](Areas)
-* [008-minmax.html](Minmax)
-* [009-autofill.html](Autofill)
+* [Templates](001-templates.html)
+* [Gaps](002-gaps.html](Gaps)
+* [Units of measurement](003-units.html)
+* [Alignment](004-alignment.html)
+* [Implicit tracks](005-implicit-tracks.html)
+* [Positioning](006-positioning.html)
+* [Areas](007-areas.html)
+* [Minmax](008-minmax.html)
+* [Autofill](009-autofill.html)
