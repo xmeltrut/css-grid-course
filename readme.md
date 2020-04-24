@@ -14,3 +14,10 @@ Example code for the CSS Grid course.
 * [Areas](08-areas.html)
 * [Minmax](09-minmax.html)
 * [Autofill](10-autofill.html)
+
+## Projects
+
+Two-column layout
+
+* [Project](Projects/Two Column Layout/project.html)
+* [Solution](Projects/Two Column Layout/completed.html)
