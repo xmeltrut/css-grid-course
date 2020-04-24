@@ -19,5 +19,5 @@ Example code for the CSS Grid course.
 
 Two-column layout
 
-* [Project](Projects/Two Column Layout/project.html)
-* [Solution](Projects/Two Column Layout/completed.html)
+* [Project](Projects/Two%20Column%20Layout/project.html)
+* [Solution](Projects/Two%20Column%20Layout/completed.html)
