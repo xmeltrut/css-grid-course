@@ -1,0 +1,42 @@
+aside {
+    padding: 24px;
+}
+
+aside section {
+    background-color: #FF7F50;
+    margin-bottom: 24px;
+    padding: 48px 24px;
+    text-align: center;
+}
+
+aside section:last-child {
+    margin-bottom: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', Heletica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+}
+
+footer {
+    background-color: #eee;
+    padding: 24px;
+}
+
+header {
+    background-color: #eee;
+    font-size: 200%;
+    font-weight: bold;
+    padding: 24px;
+}
+
+main {
+    padding: 24px;
+}
+
+main h1 {
+    color: #555;
+    margin-top: 0;
+}

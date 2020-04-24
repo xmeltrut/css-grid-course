@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Grid</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="base.css">
+        <style>
+            main {
+                display: grid;
+                grid-template-columns: 1fr 700px 1fr;
+            }
+
+            main h1, main p {
+                grid-column-start: 2;
+            }
+
+            main img {
+                grid-column: 1 / span 3;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            CSS Report
+        </header>
+        <main>
+
+            <h1>Article title</h1>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a feugiat eros, non finibus nisl. Quisque tempus, tellus vel pharetra faucibus, diam odio bibendum velit, at porttitor ante dolor ut sapien. Vivamus feugiat efficitur dolor, eu fermentum nulla. Suspendisse imperdiet eros quis ipsum euismod porta. Praesent pellentesque cursus lobortis. Ut quis molestie lacus. Ut congue turpis velit, ut ultricies nisi sagittis non. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+
+            <p>
+                Suspendisse sed mauris tempus, finibus augue nec, mattis est. Donec ac est volutpat est tempus semper. Curabitur a rutrum lectus. Quisque imperdiet at urna sed interdum. Pellentesque mattis augue nulla, ac lobortis nulla sagittis varius. Phasellus viverra, elit vitae molestie interdum, risus nisi blandit nunc, et egestas lacus mauris ac est.
+            </p>
+
+            <img src="https://picsum.photos/900/300" alt="">
+
+            <p>
+                Duis efficitur iaculis magna nec faucibus. Etiam mollis ultrices nibh, vitae pulvinar leo vehicula quis. Praesent interdum pellentesque erat, id maximus magna commodo sed. Sed porttitor semper dictum. In ipsum ligula, suscipit eget dolor vitae, placerat efficitur leo. Nulla facilisi. Nunc tortor turpis, mattis vitae nisi ac, volutpat consectetur erat.
+            </p>
+
+            <p>
+                Sed eu interdum augue. Nam in orci diam. Nam porta eros id est ultrices facilisis. Cras quis ante nec velit imperdiet fermentum. Quisque placerat risus vitae sem finibus facilisis. In massa mauris, placerat nec eros vitae, vestibulum scelerisque nunc. Phasellus molestie congue libero sit amet pulvinar. Nulla facilisi. Praesent fringilla dictum sapien vitae scelerisque. Nullam varius justo eros, ut imperdiet sapien accumsan sit amet. Phasellus molestie arcu ut felis congue, vitae convallis est facilisis. Nulla est mauris, facilisis eu sapien non, iaculis malesuada lectus.
+            </p>
+
+            <img src="https://picsum.photos/900/300" alt="">
+
+            <p>
+                Aliquam erat volutpat. Maecenas dapibus consectetur laoreet. Quisque tempor dictum ipsum. Morbi porta, diam sit amet eleifend commodo, orci eros tempor velit, in pharetra dolor eros id lacus. Mauris rutrum rhoncus tellus, in ultricies ligula sodales id. Phasellus eget iaculis velit, semper sagittis quam. Nulla facilisi. Cras a diam massa. Aliquam semper, nunc mollis pretium tincidunt, nisi sapien fringilla turpis, at mollis ante diam vitae ligula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras placerat velit ante, in tempor ligula volutpat at. Aliquam erat volutpat.
+            </p>
+
+            <p>
+                Morbi aliquet nulla vel urna cursus semper vel quis urna. Sed nec nunc in dui fermentum commodo. Fusce malesuada orci sed ex vehicula faucibus. Praesent id laoreet ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla ac eros sit amet elit viverra lobortis nec eu lacus.
+            </p>
+        </main>
+    </body>
+</html>

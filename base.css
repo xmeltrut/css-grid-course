@@ -1,0 +1,13 @@
+body {
+    background-color: #0B4477;
+    color: #fff;
+    font-family: 'Source Sans Pro', Heletica, sans-serif;
+    font-size: 64px;
+    margin: 32px;
+}
+
+.container > div {
+    background-color: #22639D;
+    padding: 16px;
+    text-align: center;
+}

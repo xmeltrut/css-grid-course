@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Photo Blog</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="base.css">
+        <style>
+            main {
+                display: grid;
+                gap: 12px;
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            main img {
+                border-radius: 6px;
+            }
+
+            main img:first-child, main img:nth-child(8) {
+                grid-column-end: span 2;
+                grid-row-end: span 2;
+                height: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Photo Blog</h1>
+        </header>
+        <main>
+            <img src="https://picsum.photos/600/400" alt="">
+            <img src="https://picsum.photos/600/400" alt="">
+            <img src="https://picsum.photos/600/400" alt="">
+            <img src="https://picsum.photos/600/400" alt="">
+            <img src="https://picsum.photos/600/400" alt="">
+            <img src="https://picsum.photos/600/400" alt="">
+            <img src="https://picsum.photos/600/400" alt="">
+            <img src="https://picsum.photos/600/400" alt="">
+            <img src="https://picsum.photos/600/400" alt="">
+        </main>
+    </body>
+</html>

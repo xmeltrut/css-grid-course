@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Grid</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="base.css">
+        <style>
+            .container {
+                display: grid;
+                grid-template-areas:
+                    "header header header"
+                    "main main sidebar";
+                gap: 16px;
+            }
+
+            .container > div:nth-child(3) {
+                grid-area: header;
+            }
+
+            .container > div:nth-child(4) {
+                grid-area: main;
+            }
+
+            .container > div:nth-child(7) {
+                grid-area: sidebar;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div>1🐯</div>
+            <div>2🦁</div>
+            <div>3🐸</div>
+            <div>4🐧</div>
+            <div>5🐞</div>
+            <div>6🦖</div>
+            <div>7🐘</div>
+            <div>8🦓</div>
+            <div>9🦉</div>
+        </div>
+    </body>
+</html>
