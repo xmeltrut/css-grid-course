@@ -1,9 +1,8 @@
-CSS Grid course
-===============
+# CSS Grid course
 
 Example code for the CSS Grid course.
 
-## Fundamentals
+## Fundamentals
 
 * [Templates](001-templates.html)
 * [Gaps](002-gaps.html)
