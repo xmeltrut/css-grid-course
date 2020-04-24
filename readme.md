@@ -21,3 +21,18 @@ Two-column layout
 
 * [Project](Projects/Two%20Column%20Layout/project.html)
 * [Solution](Projects/Two%20Column%20Layout/completed.html)
+
+Article blog
+
+* [Project](Projects/Article%20Blog/project.html)
+* [Solution](Projects/Article%20Blog/completed.html)
+
+Photo blog
+
+* [Project](Projects/Photo%20Blog/project.html)
+* [Solution](Projects/Photo%20Blog/completed.html)
+
+Article with breakout
+
+* [Project](Projects/Article%20With%20Breakout/project.html)
+* [Solution](Projects/Article%20With%20Breakout/completed.html)
